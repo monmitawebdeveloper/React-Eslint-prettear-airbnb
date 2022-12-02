@@ -15,8 +15,27 @@ npx install-peerdeps --dev eslint-config-airbnb
 ```
 
 ### 3. Create .prettierrc for any prettier rules (semicolons, quotes, etc)
+```
+{
+  
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "printWidth": 80,
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "parser": "babel"
+}
 
-### 4. Create .eslintrc.json file (You can generate with eslint --init if you install eslint globally)
+```
+
+### 4. Create .eslintrc.json file (You can generate with eslint --init if you install eslint)
 
 ```
 {
